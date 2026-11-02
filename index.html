@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover delicious food and order your favourites with Swiggy.">
+  <title>Swiggy — Food, delivered with love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#" aria-label="Swiggy home">
+      <span class="brand-mark">S</span><span>Swiggy</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#restaurants">Restaurants</a>
+      <a href="#categories">Explore</a>
+      <a href="#offers">Offers</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="login" href="#login">Sign in</a>
+      <a class="signup" href="#restaurants">Order now <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="spark">✦</span> GOOD FOOD. GOOD MOOD.</div>
+        <h1>Your cravings,<br><em>delivered.</em></h1>
+        <p>From your favourite comfort food to something wonderfully new — happiness is just a few clicks away.</p>
+        <div class="hero-buttons">
+          <a class="primary-btn" href="#restaurants">Explore restaurants <span>→</span></a>
+          <a class="text-btn" href="#categories">Browse categories</a>
+        </div>
+        <div class="social-proof">
+          <div class="avatars"><span>👩🏻</span><span>👨🏽</span><span>👩🏾</span><span>＋</span></div>
+          <div><strong>Food brings us together</strong><small>Made for every kind of craving</small></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="orange-orbit"></div>
+        <div class="food-card burger-card"><img src="assets/burger.jpg" alt="Juicy double cheeseburger"><span class="food-tag">Fan favourite</span></div>
+        <div class="food-card pizza-card"><img src="assets/pizza.jpg" alt="Fresh paneer pizza"></div>
+        <div class="floating-note"><span>★</span><div><b>Deliciously good</b><small>Every bite, a little joy</small></div></div>
+        <div class="mini-label">MADE WITH ♥</div>
+      </div>
+    </section>
+
+    <section class="category-section" id="categories">
+      <div class="section-heading">
+        <div><span class="section-kicker">WHAT ARE YOU IN THE MOOD FOR?</span><h2>Explore <span>categories</span></h2></div>
+        <a class="view-all" href="#restaurants">View all <span>→</span></a>
+      </div>
+      <div class="category-grid">
+        <a class="category" href="#restaurants"><img src="assets/Chinese.png" alt="Chinese food"><b>Chinese</b><small>Wok & roll</small></a>
+        <a class="category" href="#restaurants"><img src="assets/Chole Bhature.png" alt="Chole bhature"><b>Chole Bhature</b><small>Desi delights</small></a>
+        <a class="category" href="#restaurants"><img src="assets/Dosa.png" alt="Dosa"><b>Dosa</b><small>South Indian</small></a>
+        <a class="category" href="#restaurants"><img src="assets/Coffee.png" alt="Coffee"><b>Coffee</b><small>Little pick-me-up</small></a>
+        <a class="category" href="#restaurants"><img src="assets/Cake.png" alt="Chocolate cake"><b>Cake</b><small>Sweet moments</small></a>
+        <a class="category" href="#restaurants"><img src="assets/Desserts.png" alt="Waffles and ice cream"><b>Desserts</b><small>Save room for more</small></a>
+        <a class="category" href="#restaurants"><img src="assets/Dhokla.png" alt="Dhokla"><b>Dhokla</b><small>Light & lovely</small></a>
+      </div>
+    </section>
+
+    <section class="offer-banner" id="offers">
+      <div class="offer-text"><span class="section-kicker">A LITTLE EXTRA HAPPINESS</span><h2>Good food tastes<br>better with <em>good deals.</em></h2><p>Discover exciting offers on your next order.</p><a href="#restaurants" class="offer-btn">Find your deal <span>→</span></a></div>
+      <div class="offer-art"><div class="offer-circle">YUM!</div><div class="offer-sticker">TODAY<br><b>＝</b><br>GOOD DAY</div><span class="offer-star">✳</span></div>
+    </section>
+
+    <section class="restaurants" id="restaurants">
+      <div class="section-heading">
+        <div><span class="section-kicker">HANDPICKED FOR YOUR HUNGER</span><h2>Popular near <span>you</span></h2></div>
+        <div class="delivery-pill"><span></span> Delivering fresh</div>
+      </div>
+      <div class="restaurant-grid">
+        <article class="restaurant-card"><div class="restaurant-image"><img src="assets/pizza.jpg" alt="Paneer pizza"><span class="discount">20% OFF</span><span class="heart">♡</span></div><div class="restaurant-info"><div class="restaurant-title"><h3>Pizza Paradise</h3><span class="rating">★ 4.5</span></div><p>Pizza, Italian, Fast Food</p><div class="meta"><span>◷ 25–30 min</span><span>₹250 for two</span></div></div></article>
+        <article class="restaurant-card"><div class="restaurant-image"><img src="assets/burger.jpg" alt="Double cheeseburger"><span class="discount">BESTSELLER</span><span class="heart">♡</span></div><div class="restaurant-info"><div class="restaurant-title"><h3>Burger Boulevard</h3><span class="rating">★ 4.3</span></div><p>Burgers, American, Snacks</p><div class="meta"><span>◷ 20–25 min</span><span>₹200 for two</span></div></div></article>
+        <article class="restaurant-card"><div class="restaurant-image"><img src="assets/Chole Bhature.png" alt="Chole bhature"><span class="discount">FLAT ₹50 OFF</span><span class="heart">♡</span></div><div class="restaurant-info"><div class="restaurant-title"><h3>Desi Zaika</h3><span class="rating">★ 4.6</span></div><p>North Indian, Street Food</p><div class="meta"><span>◷ 30–35 min</span><span>₹180 for two</span></div></div></article>
+      </div>
+    </section>
+
+    <section class="app-cta">
+      <div><span class="section-kicker">YOUR NEXT FAVOURITE MEAL AWAITS</span><h2>What are you waiting for?</h2><p>Pick a dish, place your order, and let the deliciousness come to you.</p></div>
+      <a class="primary-btn" href="#restaurants">Order something yummy <span>→</span></a>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">S</span><span>Swiggy</span></a><p>© 2026 Swiggy-inspired food landing page. Made with ♥ for food lovers.</p><div><a href="#categories">Explore</a><a href="#offers">Offers</a><a href="#restaurants">Restaurants</a></div></footer>
+</body>
+</html>
